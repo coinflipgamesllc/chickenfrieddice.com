@@ -13,7 +13,7 @@
 		<img
 			src="urban-professional.png"
 			alt="Urban Professional Logo"
-			class="w-1/4 absolute right-4 -top-16"
+			class="w-1/6 absolute left-4 -top-8"
 		/>
 	</a>
 	<div class="flex flex-row">
