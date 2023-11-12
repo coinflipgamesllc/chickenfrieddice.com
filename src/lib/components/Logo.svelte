@@ -12,4 +12,4 @@
 	// });
 </script>
 
-<img src="logo.svg" class="w-1/3" alt="Chicken Fried Dice Logo" />
+<img src="logo.svg" class="md:w-1/3 w-10/12 mt-20" alt="Chicken Fried Dice Logo" />

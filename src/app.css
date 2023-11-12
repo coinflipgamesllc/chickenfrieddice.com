@@ -43,9 +43,9 @@ div[data-form="2f3eefe6-7763-11ee-a449-41078a26d697"].inline-container {
 
 .customers {
 	position: relative;
-	bottom: 50%;
+	bottom: 5rem;
 	width: 40em;
-	max-width: 50%;
+	max-width: 90%;
 	transform: rotate(-10deg);
 	filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0, 0.75));
 }

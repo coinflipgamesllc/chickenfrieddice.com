@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Newsletter from '$lib/components/Newsletter.svelte';
 	import Logo from '../lib/components/Logo.svelte';
 </script>
 
@@ -7,21 +8,24 @@
 	<link rel="icon" type="image/svg" href="/favicon.ico" />
 </svelte:head>
 
-<div class="container mx-auto w-full flex flex-col items-center justify-center">
-	<Logo />
+<div class="container mx-auto flex flex-col items-center justify-center">
 	<a href="https://urbanprofessional.games" target="_blank" rel="noopener noreferrer">
 		<img
 			src="urban-professional.png"
 			alt="Urban Professional Logo"
-			class="w-1/6 absolute left-4 -top-8"
+			class="md:w-1/6 w-1/3 absolute left-4 top-0"
 		/>
 	</a>
-	<div class="flex flex-row">
-		<img src="trucks.svg" class="h-16 -mt-4" alt="row of truck illustrations" />
-		<img src="trucks.svg" class="h-16 -mt-4 pl-8" alt="row of truck illustrations" />
+
+	<Logo />
+
+	<div class="flex flex-row w-full justify-center overflow-hidden">
+		<img src="trucks.svg" class="max-h-16 -mt-4" alt="row of truck illustrations" />
+		<img src="trucks.svg" class="max-h-16 -mt-4 pl-8" alt="row of truck illustrations" />
 	</div>
+
 	<div
-		class="w-full mx-auto md:p-8 p-4 bg-white/[0.8] border-4 border-black md:border-b-0 rounded flex flex-col items-center text-center"
+		class="w-full md:mx-auto md:p-8 p-4 bg-white/[0.8] border-4 border-black rounded flex flex-col items-center text-center"
 	>
 		<h1 class="text-4xl">
 			<img src="chicken.svg" class="h-8 inline -mt-4" alt="chicken icon" /> What is all this?
@@ -34,22 +38,12 @@
 			crown of best chicken chef!
 		</p>
 
-		<h1 class="text-4xl">
-			<img src="chop.svg" class="h-8 inline -mt-4" alt="chop icon" /> More details coming soon!
-		</h1>
-		<h2 class="text-2xl">Sign up for our newsletter</h2>
-		<p class="text-xl">Be the first to hear about Chicken Fried Dice updates!</p>
+		<Newsletter />
 
-		<script
-			async
-			src="https://eocampaign1.com/form/2f3eefe6-7763-11ee-a449-41078a26d697.js"
-			data-form="2f3eefe6-7763-11ee-a449-41078a26d697"
-		></script>
-
-		<img src="/customers.png" alt="Customer cards showcase" class="customers md:inline hidden" />
+		<img src="/customers.png" alt="Customer cards showcase" class="customers inline" />
 	</div>
 </div>
 
-<footer class="-mt-40">
+<footer class="-mt-32">
 	<img src="/dice.png" alt="Dice footer" />
 </footer>
