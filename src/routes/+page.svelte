@@ -9,6 +9,13 @@
 
 <div class="container mx-auto w-full flex flex-col items-center justify-center">
 	<Logo />
+	<a href="https://urbanprofessional.games" target="_blank" rel="noopener noreferrer">
+		<img
+			src="urban-professional.png"
+			alt="Urban Professional Logo"
+			class="w-1/4 absolute right-4 -top-16"
+		/>
+	</a>
 	<div class="flex flex-row">
 		<img src="trucks.svg" class="h-16 -mt-4" alt="row of truck illustrations" />
 		<img src="trucks.svg" class="h-16 -mt-4 pl-8" alt="row of truck illustrations" />
