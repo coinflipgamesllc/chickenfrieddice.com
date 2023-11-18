@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Gallery from '$lib/components/Gallery.svelte';
 	import Newsletter from '$lib/components/Newsletter.svelte';
 	import Logo from '../lib/components/Logo.svelte';
 </script>
@@ -40,7 +41,7 @@
 
 		<Newsletter />
 
-		<img src="/customers.png" alt="Customer cards showcase" class="customers inline" />
+		<Gallery />
 	</div>
 </div>
 
