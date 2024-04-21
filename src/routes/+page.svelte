@@ -29,7 +29,7 @@
 		class="w-full md:mx-auto md:p-8 p-4 bg-white/[0.8] border-4 border-black rounded flex flex-col items-center text-center"
 	>
 		<h1 class="text-4xl">
-			<img src="chicken.svg" class="h-8 inline -mt-4" alt="chicken icon" /> What is all this?
+			<img src="chicken.png" class="h-8 inline -mt-4" alt="chicken icon" /> What is all this?
 		</h1>
 		<p>
 			Chicken Fried Dice is a game for 2-5 players taking about 30-40 minutes. Players are competing
