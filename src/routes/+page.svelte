@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Gallery from '$lib/components/Gallery.svelte';
 	import Newsletter from '$lib/components/Newsletter.svelte';
-	import Logo from '../lib/components/Logo.svelte';
 </script>
 
 <svelte:head>
@@ -18,7 +17,7 @@
 		/>
 	</a>
 
-	<Logo />
+	<img src="logo.png" class="md:w-1/3 w-10/12 mb-10" alt="Chicken Fried Dice Logo" />
 
 	<div class="flex flex-row w-full justify-center overflow-hidden">
 		<img src="trucks.svg" class="max-h-16 -mt-4" alt="row of truck illustrations" />
