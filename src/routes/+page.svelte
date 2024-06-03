@@ -31,12 +31,20 @@
 			<img src="chicken.png" class="h-8 inline -mt-4" alt="chicken icon" /> What is all this?
 		</h1>
 		<p>
-			Chicken Fried Dice is a game for 2-5 players taking about 30-40 minutes. Players are competing
-			as chefs at a food truck festival serving up the best chicken (or non-meat chicken) dishes in
-			town. Each customer is on a timer— Don't let them get hangry or they'll leave a bad review!
-			The player with the highest score at the end of the game will be the winner and claim the
-			crown of best chicken chef!
+			Players operate their own Chicken (or chicken replacement) Food Trucks in this dice chucking
+			and plucking roll-n-write. Feed customers by matching ingredient dice to the dishes they want
+			before they get ticked off!
 		</p>
+
+		<a
+			href="https://www.kickstarter.com/projects/urban-pro-games/chicken-fried-dice"
+			target="_blank"
+		>
+			<h2 class="text-2xl">Follow us on</h2>
+			<img src="kickstarter-logo.png" class="h-8 inline pl-2" alt="Kickstarter logo" />
+		</a>
+
+		<p>Or</p>
 
 		<Newsletter />
 

@@ -101,9 +101,6 @@ p {
 	margin: calc(1ex / 0.32) 0;
 	hyphens: auto;
 }
-a:hover {
-	background-color: #9575cd;
-}
 
 div[data-form="2f3eefe6-7763-11ee-a449-41078a26d697"].inline-container {
 	max-width: 100% !important;
